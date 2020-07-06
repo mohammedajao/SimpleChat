@@ -20,7 +20,7 @@ public class ChatApplication extends Application {
         Parse.initialize(new Parse.Configuration.Builder(this)
                 .applicationId("APP_ID")
                 .clientBuilder(builder)
-                .server("http://link.herokupapp.com").build()
+                .server("https://fbusimplechat.herokuapp.com/").build()
         );
     }
 }
